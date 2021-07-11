@@ -14,4 +14,8 @@ body {
   line-height: 1.3;
 }
 
+.flex {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
