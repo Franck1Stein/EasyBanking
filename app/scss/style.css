@@ -17,5 +17,27 @@ body {
 .flex {
   display: flex;
 }
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+
+.header nav {
+  padding: 24px;
+}
+.header__menu > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: darkBlue;
+}
+.header__menu > span:not(:last-child) {
+  margin-bottom: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */

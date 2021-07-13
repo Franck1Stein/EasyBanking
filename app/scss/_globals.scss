@@ -17,5 +17,16 @@ body {
 // Flexbox Style //
 .flex {
   display: flex;
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
 
 }
